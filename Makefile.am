@@ -1,7 +1,6 @@
-SUBDIRS = src 
+ACLOCAL_AMFLAGS = -Im4
 
-include aminclude.am
+SUBDIRS = src
 
-EXTRA_DIST = autogen.sh $(DX_CONFIG) doxygen-doc/html
-
+EXTRA_DIST = autogen.sh
 

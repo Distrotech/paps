@@ -1,0 +1,12 @@
+AC_INIT([libpaps],[0.6.8])
+
+AM_CONFIG_HEADER(config.h)
+AM_INIT_AUTOMAKE
+
+AC_CONFIG_MACRO_DIR([m4])
+
+AC_LANG_C
+AC_PROG_CC
+AM_PROG_LIBTOOL
+
+AC_OUTPUT(Makefile src/Makefile)
