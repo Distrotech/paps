@@ -88,8 +88,8 @@ typedef struct {
   PangoDirection pango_dir;
   gchar *filename;
   gchar *header_font_desc;
-  gdouble lpi;
-  gdouble cpi;
+  gint lpi;
+  gint cpi;
 } page_layout_t;
 
 typedef struct {
